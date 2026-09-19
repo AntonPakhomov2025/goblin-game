@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #1a1a2e;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  color: #e94560;
+}
+
+.game-info {
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  margin: 0 auto 1rem;
+  font-size: 1.2rem;
+}
+
+.game-field {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  width: 400px;
+  height: 400px;
+  background: #16213e;
+  padding: 8px;
+  border-radius: 12px;
+  border: 2px solid #0f3460;
+  margin: 0 auto;
+}
+
+.cell {
+  background: #0f3460;
+  border-radius: 8px;
+  transition: background 0.2s, transform 0.1s;
+  cursor: url(./assets/hammer-cursor.png) 16 16, pointer;
+}
+
+.cell--active {
+  background-image: url(./assets/goblin.png);
+  background-size: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #1a1a4e;
+}
+
+.cell--active:active {
+  transform: scale(0.95);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.game-over {
+  margin-top: 1.5rem;
+  color: #e94560;
+}
+
+.restart-btn {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #e94560;
+  color: #fff;
+  cursor: pointer;
+}
+
+.restart-btn:hover {
+  background: #c81e45;
+}
