@@ -2,11 +2,6 @@
 
 ![Deploy](https://github.com/AntonPakhomov2025/goblin-game/actions/workflows/deploy.yml/badge.svg)
 
-
-![Build](https://github.com/
-AntonPakhomov2025
-/goblin-game/actions/workflows/deploy.yml/badge.svg)
-
 [Открыть на GitHub Pages](https://
 AntonPakhomov2025
 .github.io/goblin-game/)
