@@ -1,5 +1,8 @@
 # Игра с гоблинами
 
+![Deploy](https://github.com/AntonPakhomov2025/goblin-game/actions/workflows/deploy.yml/badge.svg)
+
+
 ![Build](https://github.com/
 AntonPakhomov2025
 /goblin-game/actions/workflows/deploy.yml/badge.svg)
